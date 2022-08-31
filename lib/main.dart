@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:stamprally/Entrance.dart';
 import 'package:stamprally/roomcreate.dart';
 import 'package:stamprally/welcome.dart';
+import 'package:stamprally/geolocate.dart';
 
 import 'login.dart';
 import 'video.dart';
@@ -38,6 +39,7 @@ class MyApp extends StatelessWidget {
         Entrance.id: (context) => Entrance(),
         RoomCreate.id: (context) => RoomCreate(),
         Video.id: (context) => Video(),
+        GeoMap.id: (context) => GeoMap(),
       },
 
     );

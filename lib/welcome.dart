@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:stamprally/roomcreate.dart';
+import 'package:stamprally/geolocate.dart';
 
 import 'login.dart';
 import 'video.dart';
@@ -32,7 +33,7 @@ class Welcome extends StatelessWidget {
                             onPrimary: Color(0xFF696636),
                           ),
                           onPressed: () {
-                            Navigator.pushNamed(context, LogIn.id);
+                            Navigator.pushNamed(context, GeoMap.id);
                           },
                           child: const Text('ルームを作る'),
                         ),
@@ -42,7 +43,7 @@ class Welcome extends StatelessWidget {
                             onPrimary: const Color(0xFF696636),
                           ),
                           onPressed: () {
-                            Navigator.pushNamed(context, Video.id);
+                            Navigator.pushNamed(context, GeoMap.id);
                           },
                           child: const Text('ルームに入る'),
                         ),

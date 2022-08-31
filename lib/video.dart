@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 
 class Video extends StatelessWidget {
@@ -13,9 +15,6 @@ class Video extends StatelessWidget {
               Column(
                   children: [
                     SizedBox(height: 25,),
-                    Image.network('https://t3.ftcdn.net/jpg/03/20/29/04/240_F_320290422_jx8UkbzwcsDU8bUjLgrIRND1ifPLmnyM.jpg'),
-                    SizedBox(height: 5,),
-                    Image.network('https://t3.ftcdn.net/jpg/03/20/29/04/240_F_320290422_jx8UkbzwcsDU8bUjLgrIRND1ifPLmnyM.jpg'),
                   ]
               ),
               SizedBox(height: 60,),
@@ -32,7 +31,6 @@ class Video extends StatelessWidget {
                   child:  Text('主催',textAlign: TextAlign.left),
                 ),
               ),
-
             ],
           )),
     );
